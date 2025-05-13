@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Software Engineering & Project Management Reflection</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #ff0000;
+      --accent: #c45405;
+      --bg: #f9fafb;
+      --card-bg: #ffffff;
+      --text: #1f2937;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 2rem;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      box-shadow: 0 30px 30px rgba(228, 96, 9, 0.3);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    section {
+      background: var(--card-bg);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    section:hover {
+      transform: translateY(-4px);
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .fun-facts {
+      background: #ecfdf5;
+      border-left: 5px solid #10b981;
+    }
+
+    .project-box {
+      background: #fef2f2;
+      border-left: 5px solid #27b3cc;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Software Engineering & Project Management</h1>
+    <p>A semester-long journey into software development principles, agile practices, and real-world project execution </p>
+  </header>
+
+  <main>
+    <section>
+      <h2>What I Learned</h2>
+      <ul>
+        <li><strong>Software Development Life Cycles:</strong> Studied traditional models like Waterfall and modern approaches such as Agile, Scrum, and Extreme Programming.</li>
+        <li><strong>Requirement Engineering:</strong> Learned how to gather user requirements, define functional and non-functional needs, and structure them into an SRS document.</li>
+        <li><strong>System Design:</strong> Explored architectural design principles, patterns (MVC, layered), and tools like UML to visualize systems using Class, Use Case, Sequence, and State diagrams.</li>
+        <li><strong>Effort Estimation & Planning:</strong> Applied COCOMO models and function point metrics to estimate cost, time, and resources required for projects. Built Gantt charts, WBS, and RACI matrices.</li>
+        <li><strong>Testing & Quality Assurance:</strong> Understood black-box vs white-box testing, developed test cases, and executed unit, integration, system, and acceptance tests.</li>
+        <li><strong>Risk & Release Management:</strong> Analyzed risks using proactive and reactive strategies. Learned about maintenance types (perfective, adaptive) and project closure activities.</li>
+      </ul>
+    </section>
+
+    <section class="project-box">
+      <h2>Final Project: E Commerce Website </h2>
+      <p>
+        As part of the final semester project, our team developed <strong>E Commerce Website</strong>, a full-stack web platform to help people purchase, filter, sort, and update their products and carts.
+      </p>
+      <p>
+        We adopted <strong>Agile methodology</strong>, organizing our work into sprints and maintaining a product backlog. Daily stand-ups, sprint planning, and retrospectives ensured strong communication. I personally worked on:
+      </p>
+      <ul>
+        <li>Building responsive UI using HTML, CSS, and JavaScript</li>
+        <li>Contributing to the database schema and API integration</li>
+        <li>Documenting user stories, SRS, and test cases</li>
+        <li>Collaborating using GitHub, Trello, and Google Meet</li>
+      </ul>
+      <p>
+        🔗 <a href="" target="_blank">View Live Project</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Tools & Techniques I Used</h2>
+      <ul>
+        <li><strong>MSPlanner:</strong> Managed tasks, assigned roles, tracked progress</li>
+        <li><strong>Lucidchart / Draw.io:</strong> Created diagrams like Use Case, Class, Sequence, and Activity diagrams</li>
+        <li><strong>VS Code & GitHub:</strong> Collaborated with team and maintained version control</li>
+        <li><strong>Testing Docs:</strong> Created Master Test Plan, Test Case Documents, and performed manual testing</li>
+        <li><strong>Presentation Tools:</strong> Designed UI mockups and final reports with Canva, Figma, and MS PowerPoint</li>
+      </ul>
+    </section>
+
+    <section class="fun-facts">
+      <h2>Fun Facts </h2>
+      <ul>
+        <li>I learned more about teamwork in this one project than in any group assignment before.</li>
+        <li>Our first SRS had 5 pages of contradictions – writing clear requirements is HARD!</li>
+        <li>Our first COCOMO estimate was off by 200% – it was a reality check!</li>
+        <li>I now truly understand why developers say: “It works on my machine.”</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Final Thoughts</h2>
+      <p>
+        This course gave me the blueprint of how software is built in the real world. From managing a team and understanding client expectations, to translating those into working code – I experienced the entire lifecycle. I no longer see coding as just a technical task, but as part of a structured, people-driven, and evolving process.
+      </p>
+      <p>
+        I’m confident in my ability to plan, collaborate, design, test, and deliver software with professionalism and agility.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by Bhavneet Singh Ahuja (RA2211003010663)..</p>
+  </footer>
+
+</body>
+</html>
